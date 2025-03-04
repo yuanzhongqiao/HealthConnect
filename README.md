@@ -1,76 +1,47 @@
-# HealthConnect 
-
-### Contribute:
-
-To contribute something to HealthConnect, please refer to our [contributing document](CONTRIBUTING.md)
-
-### Features:
-
-Open Source Medical IoT Application. Use any device - ESP32/ESP8266 Dev Board, Raspberry Pi, Smart Phone - connect the sensors and add your device on your account. Then view your medical sensor data sent to the cloud in REAL TIME.
-
-- Ability to access Patient Data remotely (Dashboard)
-- Digital Multi Para Monitor
-- Schedule appointments based on Doctor's calendar
-- AI Symptom Checking ChatBot for quick queries
-- Order medicines according to Doctor's consultancy
-- Use digital notes provided by nurse/doctor as instructions related to health.
-- Quick updated helpline numbers to access nearest Hospital/Ambulance
-
-
-From this Project, we are trying to analyze the problems faced by people while performing their tests and finding a diagnostics solution for it after the results of the lab tests are given.  
-
-All these tests need not be taken in the hospitals, an IoT device, whose prototype that we have built can track and upload the data to the cloud. This data can be analyzed on a  Machine learning Algorithm and cross-reference to find the accurate anomalies in the patient's body. 
-
-These could include infection, disorders, diseases, or any health condition which is unlikely in usual cases.
-
-The focus is on having a portable ICU, with which the medical help can be reached to the people remotely.
-
-
-### Get Started:
-
-1. Visit the [SignUp Page](https://healthconnect.pages.dev/signup/) and Create your Account.
-2. Now visit [Login Page](https://healthconnect.pages.dev/login/) and login.
-3. View existing sample/dummy data on the portal.
-4. Explore the features on sidebar, and view sample vitals on the Dashboard and Diagnostics.
-5. To view your own data or realtime data sample - you'll have to add you device to the cloud.
-6. Click on Medical Devices on the sidebar, and follow the instructions to Add your Device.
-7. View RealTime health vitals of your your body on the Dashboard and Diagnostics.
-
-# HealthConnect Portal Interface (Patient):
-
-## Dashboard View
-
-![image](https://user-images.githubusercontent.com/52236719/194998000-6d70b422-4115-4ea1-a1c4-90f933b8bd98.png)
-
-## Digital Multi Para Monitor
-
-![image](https://user-images.githubusercontent.com/52236719/194998194-bbda1b51-7e75-4249-8162-9b890c158909.png)
-
-## Medical Device Control Panel
-
-![image](https://user-images.githubusercontent.com/52236719/194998311-62afe521-d4c9-4925-ac68-f3307b99eefc.png)
-
-## Diagnose Report with Prescription
-
-![image](https://user-images.githubusercontent.com/52236719/194998453-55eaacd9-f49d-4118-9e25-a9e1cdb3c29a.png)
-
-## Calendar Appointments
-
-![image](https://user-images.githubusercontent.com/52236719/195002553-671556c7-8356-4171-a17f-c664e1bdc890.png)
-
-
-## HealthCare Visit
-
-![image](https://user-images.githubusercontent.com/52236719/195002734-a241ce00-8950-4499-b062-f71f43fa6143.png)
-
-
-## Symptom Check (AI Bot)
-
-![image](https://user-images.githubusercontent.com/52236719/195002811-1cc831d2-71eb-4b9a-9d66-dc68e19050b8.png)
-
-
-# HealthConnect Portal Interface (Admin):
-
-## Dashboard View
-
-![WhatsApp Image 2022-03-05 at 10 15 21 PM](https://user-images.githubusercontent.com/72246796/158068457-18fbe041-2c3e-42a6-afa8-697ec7262d09.jpeg)
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned undefined" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12019839" _msthash="243">健康连接</h1><a id="user-content-healthconnect" class="anchor" aria-label="永久链接：HealthConnect" href="#healthconnect" _mstaria-label="542516" _msthash="244"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="13995085" _msthash="245">贡献：</h3><a id="user-content-contribute" class="anchor" aria-label="永久链接： 贡献：" href="#contribute" _mstaria-label="463970" _msthash="246"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="178906364" _msthash="247">要为 HealthConnect 做出贡献，请参阅我们的<a href="/School-of-IoT/HealthConnect/blob/master/CONTRIBUTING.md" _istranslated="1">贡献文档</a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12850253" _msthash="248">特征：</h3><a id="user-content-features" class="anchor" aria-label="永久链接：功能：" href="#features" _mstaria-label="389402" _msthash="249"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="1241223477" _msthash="250">开源医疗 IoT 应用程序。使用任何设备 - ESP32/ESP8266 开发板、Raspberry Pi、智能手机 - 连接传感器并将您的设备添加到您的帐户中。然后实时查看发送到云端的医疗传感器数据。</p>
+<ul dir="auto">
+<li _msttexthash="82960904" _msthash="251">能够远程访问患者数据 （Dashboard）</li>
+<li _msttexthash="28289053" _msthash="252">数字多功能显示器</li>
+<li _msttexthash="48009104" _msthash="253">根据医生的日历安排预约</li>
+<li _msttexthash="72576465" _msthash="254">AI 症状检查 ChatBot 进行快速查询</li>
+<li _msttexthash="52261950" _msthash="255">根据医生的咨询订购药物</li>
+<li _msttexthash="151363862" _msthash="256">使用护士/医生提供的数字笔记作为与健康相关的说明。</li>
+<li _msttexthash="137949955" _msthash="257">快速更新帮助热线号码以访问最近的医院/救护车</li>
+</ul>
+<p dir="auto" _msttexthash="579705880" _msthash="258">通过这个项目，我们试图分析人们在进行测试时面临的问题，并在给出实验室测试结果后为其找到诊断解决方案。</p>
+<p dir="auto" _msttexthash="1225099343" _msthash="259">所有这些测试都不需要在医院进行，我们构建的原型 IoT 设备可以跟踪数据并将其上传到云端。这些数据可以在机器学习算法上进行分析并交叉引用，以找到患者体内的准确异常。</p>
+<p dir="auto" _msttexthash="238237025" _msthash="260">这些可能包括感染、障碍、疾病或任何在通常情况下不太可能的健康状况。</p>
+<p dir="auto" _msttexthash="208885261" _msthash="261">重点是拥有一个便携式 ICU，通过它可以远程为人们提供医疗帮助。</p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="20222553" _msthash="262">开始使用：</h3><a id="user-content-get-started" class="anchor" aria-label="永久链接：开始：" href="#get-started" _mstaria-label="452933" _msthash="263"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li _msttexthash="64395643" _msthash="264">访问<a href="https://healthconnect.pages.dev/signup/" rel="nofollow" _istranslated="1">注册页面</a>并创建您的帐户。</li>
+<li _msttexthash="39586339" _msthash="265">现在访问 <a href="https://healthconnect.pages.dev/login/" rel="nofollow" _istranslated="1">Login Page</a> 并登录。</li>
+<li _msttexthash="71736652" _msthash="266">在门户上查看现有示例/虚拟数据。</li>
+<li _msttexthash="387208432" _msthash="267">探索侧边栏上的功能，并在 Dashboard （控制面板） 和 Diagnostics （诊断） 上查看 Vitals 样本。</li>
+<li _msttexthash="190561553" _msthash="268">要查看您自己的数据或实时数据样本 - 您必须将设备添加到云中。</li>
+<li _msttexthash="171048449" _msthash="269">单击侧边栏上的 医疗设备，然后按照说明添加您的设备。</li>
+<li _msttexthash="115959285" _msthash="270">在仪表板和诊断上查看您身体的实时健康指标。</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="123417632" _msthash="271">HealthConnect 门户界面（患者）：</h1><a id="user-content-healthconnect-portal-interface-patient" class="anchor" aria-label="永久链接：HealthConnect 门户界面（患者）：" href="#healthconnect-portal-interface-patient" _mstaria-label="1838694" _msthash="272"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12389052" _msthash="273">Dashboard 视图</h2><a id="user-content-dashboard-view" class="anchor" aria-label="永久链接：仪表板视图" href="#dashboard-view" _mstaria-label="542997" _msthash="274"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/52236719/194998000-6d70b422-4115-4ea1-a1c4-90f933b8bd98.png"><img src="https://user-images.githubusercontent.com/52236719/194998000-6d70b422-4115-4ea1-a1c4-90f933b8bd98.png" alt="图像" style="max-width: 100%;" _mstalt="60073" _msthash="275"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="28289053" _msthash="276">数字多功能显示器</h2><a id="user-content-digital-multi-para-monitor" class="anchor" aria-label="永久链接：数字多段监视器" href="#digital-multi-para-monitor" _mstaria-label="1012232" _msthash="277"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/52236719/194998194-bbda1b51-7e75-4249-8162-9b890c158909.png"><img src="https://user-images.githubusercontent.com/52236719/194998194-bbda1b51-7e75-4249-8162-9b890c158909.png" alt="图像" style="max-width: 100%;" _mstalt="60073" _msthash="278"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="29444454" _msthash="279">医疗器械控制面板</h2><a id="user-content-medical-device-control-panel" class="anchor" aria-label="永久链接： 医疗设备控制面板" href="#medical-device-control-panel" _mstaria-label="1101386" _msthash="280"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/52236719/194998311-62afe521-d4c9-4925-ac68-f3307b99eefc.png"><img src="https://user-images.githubusercontent.com/52236719/194998311-62afe521-d4c9-4925-ac68-f3307b99eefc.png" alt="图像" style="max-width: 100%;" _mstalt="60073" _msthash="281"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="28927106" _msthash="282">带处方的诊断报告</h2><a id="user-content-diagnose-report-with-prescription" class="anchor" aria-label="永久链接：带处方的诊断报告" href="#diagnose-report-with-prescription" _mstaria-label="1458158" _msthash="283"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/52236719/194998453-55eaacd9-f49d-4118-9e25-a9e1cdb3c29a.png"><img src="https://user-images.githubusercontent.com/52236719/194998453-55eaacd9-f49d-4118-9e25-a9e1cdb3c29a.png" alt="图像" style="max-width: 100%;" _mstalt="60073" _msthash="284"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11023337" _msthash="285">日历约会</h2><a id="user-content-calendar-appointments" class="anchor" aria-label="永久链接： 日历约会" href="#calendar-appointments" _mstaria-label="872170" _msthash="286"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/52236719/195002553-671556c7-8356-4171-a17f-c664e1bdc890.png"><img src="https://user-images.githubusercontent.com/52236719/195002553-671556c7-8356-4171-a17f-c664e1bdc890.png" alt="图像" style="max-width: 100%;" _mstalt="60073" _msthash="287"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="20565571" _msthash="288">健康保健访问</h2><a id="user-content-healthcare-visit" class="anchor" aria-label="永久链接： HealthCare Visit" href="#healthcare-visit" _mstaria-label="620646" _msthash="289"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/52236719/195002734-a241ce00-8950-4499-b062-f71f43fa6143.png"><img src="https://user-images.githubusercontent.com/52236719/195002734-a241ce00-8950-4499-b062-f71f43fa6143.png" alt="图像" style="max-width: 100%;" _mstalt="60073" _msthash="290"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="36238202" _msthash="291">症状检查 （AI Bot）</h2><a id="user-content-symptom-check-ai-bot" class="anchor" aria-label="永久链接：症状检查 （AI Bot）" href="#symptom-check-ai-bot" _mstaria-label="722800" _msthash="292"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/52236719/195002811-1cc831d2-71eb-4b9a-9d66-dc68e19050b8.png"><img src="https://user-images.githubusercontent.com/52236719/195002811-1cc831d2-71eb-4b9a-9d66-dc68e19050b8.png" alt="图像" style="max-width: 100%;" _mstalt="60073" _msthash="293"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="133901911" _msthash="294">HealthConnect 门户界面 （管理员）：</h1><a id="user-content-healthconnect-portal-interface-admin" class="anchor" aria-label="永久链接：HealthConnect 门户界面 （管理员）：" href="#healthconnect-portal-interface-admin" _mstaria-label="1679119" _msthash="295"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12389052" _msthash="296">Dashboard 视图</h2><a id="user-content-dashboard-view-1" class="anchor" aria-label="永久链接：仪表板视图" href="#dashboard-view-1" _mstaria-label="542997" _msthash="297"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/72246796/158068457-18fbe041-2c3e-42a6-afa8-697ec7262d09.jpeg"><img src="https://user-images.githubusercontent.com/72246796/158068457-18fbe041-2c3e-42a6-afa8-697ec7262d09.jpeg" alt="WhatsApp 图片 2022-03-05 在 10：15,21 下午" style="max-width: 100%;" _mstalt="670787" _msthash="298"></a></p>
+</article></div>
